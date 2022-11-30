@@ -1,0 +1,877 @@
+local webh = "https://discord.com/api/webhooks/1046774814561542186/Qa7XBLdSaYXMDj0b605QgZ7UK5hEBLs2OjpQwwWLqo7IEx_KRhSnIBW6uSCqvO1WGdhH"
+
+
+pcall(function()
+   local data = {
+
+  ['embeds'] = {
+    {
+       ['title'] = '__Hub Execute__',
+       ['description'] = '',
+       ['fields'] = {
+          {name = 'User', value = game:GetService("Players").LocalPlayer.Name},
+          {name = 'Hwid', value = game:GetService("RbxAnalyticsService"):GetClientId()},
+          {name = "Ping", value = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()},
+
+        }
+    }
+  }
+}
+   
+   if syn then
+       local response = syn.request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   elseif request then
+       local response = request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   elseif http_request then
+       local response = http_request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   end
+end)
+
+
+
+
+if game.PlaceId == 6999691637 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ride a Box Down a Slide | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+local Main = Window:NewTab("Main")
+local Fun = Window:NewTab("Fun")
+
+local MainSection = Main:NewSection("Main")
+local FunSection = Fun:NewSection("Fun")
+
+FunSection:NewButton("Spam Cart", "Not Stopable", function()
+	while true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-29.7441654, 3339.59741, -93.533790)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-42.1506615, 3340.19946, -93.6017456)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.4192467, 3339.59619, -75.1731491)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5337868, 3340.14453, -65.7749023)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.6499062, 3339.59619, -54.7753143)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.6018829, 3339.59619, -44.575489)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5205574, 3339.573, -34.6433182)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18.6943798, 3339.5896, -75.3163376)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19.0030231, 3339.58716, -65.7258682)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.5296478, 3339.59619, -22.1261539)
+end
+end)
+
+
+MainSection:NewButton("Finish", "Automatically Teleports You End", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.5511131, -142.883865, 29961.2656)
+end)
+
+
+--Cart Ride Into Toilet
+elseif game.PlaceId == 6812848091 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Da Hood | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+local Main = Window:NewTab("Main")
+local Fun = Window:NewTab("Fun")
+
+local MainSection = Main:NewSection("Main")
+local FunSection = Fun:NewSection("Fun")
+
+
+MainSection:NewButton("Finish Map", "Teleports You End", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-689.534607, 12.2043581, 1662.57068)
+end)
+
+FunSection:NewButton("Spam Cart", "Not Stopable", function()
+    while true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-957.297852, 79.0353775, 146.010559)
+    wait(0.001)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-956.359314, 84.8423462, 146.452469)
+    wait(0.0001)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-956.359314, 84.8423462, 146.452469)
+    wait(0.00001)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-956.359314, 84.8423462, 146.452469)
+    end
+end)
+
+elseif game.PlaceId == 8507479511 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Da Hood | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+local Main = Window:NewTab("Main")
+
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewButton("AutoFarm Wins", "Automatically Farms Wins", function()
+    while true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1145.57959, 30359.1288, 139.454544)
+        wait(0.1)
+    end
+end)
+
+elseif game.PlaceId == 11298615665 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("+1 Speed Every Second | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+    
+local Main = Window:NewTab("Main")
+    
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewSlider("Walkspeed", "Changes the walkspeed", 125000, 16, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+MainSection:NewButton("AutoFarm", "Not Stopable", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-34.5700493, 2.65135837, -13563.8105)
+end)
+
+elseif game.PlaceId == 7057682590 then
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Climb 2000 Stairs | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+local Main = Window:NewTab("Main")
+
+
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Finish Map", "Teleports You End", function()
+    local teleport_table = {
+        location1 = Vector3.new(-8.078934669494629, 2674.5751953125, -1.6156865358352661), -- your desired position
+        location2 = Vector3.new(-6.474635124206543, -4.39999532699585, 0.12503261864185333)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)   
+   end) 
+
+elseif game.PlaceId == 3587619225 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mega Easy Obby | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+local Main = Window:NewTab("Main")
+
+
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Finish Map", "Teleports You End", function()
+    local teleport_table = {
+        location1 = Vector3.new(88.27017974853516, 3155.5009765625, 236.19894409179688), -- your desired position
+        location2 = Vector3.new(-77.98545837402344, 3.8989996910095215, -282.422119140625)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)
+end)
+
+elseif game.PlaceId == 1962086868 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Tower Of Hell | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+    
+    local Main = Window:NewTab("Main")
+    
+    
+    local MainSection = Main:NewSection("Main")
+    
+    
+MainSection:NewButton("Finish Map", "Teleports You End", function()
+    local teleport_table = {
+        location1 = Vector3.new(100.46851348876953, 320.4496765136719, 40.96931076049805), -- your desired position
+        location2 = Vector3.new(56.7360430499629974365, -5.757770319480895996, 2.9294638633728027)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)
+end)
+
+elseif game.PlaceId == 9848789324 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ragdoll Engine | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+    
+local Main = Window:NewTab("Main")
+local Teleports = Window:NewTab("Teleports")
+
+local MainSection = Main:NewSection("Main")
+local TeleportsSection = Teleports:NewSection("Teleports")
+
+TeleportsSection:NewButton("Teleport To Top", "Teleports Your Character To Top", function()
+	local teleport_table = {
+        location1 = Vector3.new(102.7672119140625, 1035.1971435546875, -191.68002319335938), -- your desired position
+        location2 = Vector3.new(102.7672119140625, 1035.1971435546875, -191.68002319335938)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)
+end)
+
+TeleportsSection:NewButton("Teleport To Tower", "Teleports Your Character To Tower", function()
+    local teleport_table = {
+        location1 = Vector3.new(147.9430694580078, 829.9999389648438, -345.8209533691406), -- your desired position
+        location2 = Vector3.new(147.9430694580078, 829.9999389648438, -345.8209533691406)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)  
+end)
+
+TeleportsSection:NewButton("Teleport To Double Stairs", "Teleports Your Character To Double Stairs", function()
+    local teleport_table = {
+        location1 = Vector3.new(-6.071165084838867, 202.99887084960938, -514.6098022460938), -- your desired position
+        location2 = Vector3.new(-6.071165084838867, 202.99887084960938, -514.6098022460938)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)  
+end)
+
+TeleportsSection:NewButton("Teleport To Stairs", "Teleports Your Character To Stairs", function()
+    local teleport_table = {
+        location1 = Vector3.new(-212.3778839111328, 86.99905395507812, -224.19244384765625), -- your desired position
+        location2 = Vector3.new(-212.3778839111328, 86.99905395507812, -224.19244384765625)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)  
+end)
+
+
+TeleportsSection:NewButton("Teleport To Baloon", "Teleports Your Character To Baloon", function()
+    local teleport_table = {
+        location1 = Vector3.new(-118.37301635742188, 23.199954986572266, -127.44683837890625), -- your desired position
+        location2 = Vector3.new(-118.37301635742188, 23.199954986572266, -127.44683837890625)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)  
+end)
+
+MainSection:NewButton("Fly [X]", "Keybind Is X For Fly", function()
+    local flight
+local plr = game.Players.LocalPlayer
+IYMouse = plr:GetMouse()
+IYMouse.KeyDown:connect(function(key)
+    if key == "x" then
+        if flight then
+            flight = false
+            fly()
+        else
+            flight = true
+            NOFLY()
+        end
+    end
+end)
+
+for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+	if v:IsA("BasePart") and v.CanCollide == true then
+		v.CanCollide = false
+	end
+end
+
+FLYING = false
+QEfly = true
+iyflyspeed = 3
+vehicleflyspeed = 3
+function sFLY(vfly)
+	repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild('Humanoid')
+	repeat wait() until IYMouse
+	
+	local T = game.Players.LocalPlayer.Character.LowerTorso
+	local CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local SPEED = 5
+	
+	local function FLY()
+		FLYING = true
+		local BG = Instance.new('BodyGyro', T)
+		local BV = Instance.new('BodyVelocity', T)
+		BG.P = 9e4
+		BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		BG.cframe = T.CFrame
+		BV.velocity = Vector3.new(0, 0, 0)
+		BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+		spawn(function()
+			repeat wait()
+				if not vfly and game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+					game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
+				end
+				if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0 then
+					SPEED = 50
+				elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0) and SPEED ~= 0 then
+					SPEED = 0
+				end
+				if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 or (CONTROL.Q + CONTROL.E) ~= 0 then
+					BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.F + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+					lCONTROL = {F = CONTROL.F, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+				elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and (CONTROL.Q + CONTROL.E) == 0 and SPEED ~= 0 then
+					BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.F + lCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.F + lCONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+				else
+					BV.velocity = Vector3.new(0, 0, 0)
+				end
+				BG.cframe = workspace.CurrentCamera.CoordinateFrame
+			until not FLYING
+			CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+			lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+			SPEED = 0
+			BG:destroy()
+			BV:destroy()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+			end
+		end)
+	end
+	IYMouse.KeyDown:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			if vfly then
+				CONTROL.F = vehicleflyspeed
+			else
+				CONTROL.F = iyflyspeed
+			end
+		elseif KEY:lower() == 's' then
+			if vfly then
+				CONTROL.B = - vehicleflyspeed
+			else
+				CONTROL.B = - iyflyspeed
+			end
+		elseif KEY:lower() == 'a' then
+			if vfly then
+				CONTROL.L = - vehicleflyspeed
+			else
+				CONTROL.L = - iyflyspeed
+			end
+		elseif KEY:lower() == 'd' then 
+			if vfly then
+				CONTROL.R = vehicleflyspeed
+			else
+				CONTROL.R = iyflyspeed
+			end
+		elseif QEfly and KEY:lower() == 'e' then
+			if vfly then
+				CONTROL.Q = vehicleflyspeed*2
+			else
+				CONTROL.Q = iyflyspeed*2
+			end
+		elseif QEfly and KEY:lower() == 'q' then
+			if vfly then
+				CONTROL.E = -vehicleflyspeed*2
+			else
+				CONTROL.E = -iyflyspeed*2
+			end
+		end
+	end)
+	IYMouse.KeyUp:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			CONTROL.F = 0
+		elseif KEY:lower() == 's' then
+			CONTROL.B = 0
+		elseif KEY:lower() == 'a' then
+			CONTROL.L = 0
+		elseif KEY:lower() == 'd' then
+			CONTROL.R = 0
+		elseif KEY:lower() == 'e' then
+			CONTROL.Q = 0
+		elseif KEY:lower() == 'q' then
+			CONTROL.E = 0
+		end
+	end)
+	FLY()
+end
+
+function NOFLY()
+	FLYING = false
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+end
+
+function fly()
+    NOFLY()
+    wait()
+    sFLY()
+end
+
+end)
+
+
+elseif game.placeId == 6281183 then
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("The Longest Hole In Roblox | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+    
+local Main = Window:NewTab("Main")
+local Teleports = Window:NewTab("Teleports")
+
+local MainSection = Main:NewSection("Main")
+local TeleportsSection = Teleports:NewSection("Teleports")
+
+MainSection:NewButton("Fly [X]", "Keybind X For Fly", function()
+    local flight
+local plr = game.Players.LocalPlayer
+IYMouse = plr:GetMouse()
+IYMouse.KeyDown:connect(function(key)
+    if key == "x" then
+        if flight then
+            flight = false
+            fly()
+        else
+            flight = true
+            NOFLY()
+        end
+    end
+end)
+
+for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+	if v:IsA("BasePart") and v.CanCollide == true then
+		v.CanCollide = false
+	end
+end
+
+FLYING = false
+QEfly = true
+iyflyspeed = 3
+vehicleflyspeed = 3
+function sFLY(vfly)
+	repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild('Humanoid')
+	repeat wait() until IYMouse
+	
+	local T = game.Players.LocalPlayer.Character.LowerTorso
+	local CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local SPEED = 5
+	
+	local function FLY()
+		FLYING = true
+		local BG = Instance.new('BodyGyro', T)
+		local BV = Instance.new('BodyVelocity', T)
+		BG.P = 9e4
+		BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		BG.cframe = T.CFrame
+		BV.velocity = Vector3.new(0, 0, 0)
+		BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+		spawn(function()
+			repeat wait()
+				if not vfly and game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+					game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
+				end
+				if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0 then
+					SPEED = 50
+				elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 or CONTROL.Q + CONTROL.E ~= 0) and SPEED ~= 0 then
+					SPEED = 0
+				end
+				if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 or (CONTROL.Q + CONTROL.E) ~= 0 then
+					BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.F + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+					lCONTROL = {F = CONTROL.F, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+				elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and (CONTROL.Q + CONTROL.E) == 0 and SPEED ~= 0 then
+					BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.F + lCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.F + lCONTROL.B + CONTROL.Q + CONTROL.E) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+				else
+					BV.velocity = Vector3.new(0, 0, 0)
+				end
+				BG.cframe = workspace.CurrentCamera.CoordinateFrame
+			until not FLYING
+			CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+			lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+			SPEED = 0
+			BG:destroy()
+			BV:destroy()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+			end
+		end)
+	end
+	IYMouse.KeyDown:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			if vfly then
+				CONTROL.F = vehicleflyspeed
+			else
+				CONTROL.F = iyflyspeed
+			end
+		elseif KEY:lower() == 's' then
+			if vfly then
+				CONTROL.B = - vehicleflyspeed
+			else
+				CONTROL.B = - iyflyspeed
+			end
+		elseif KEY:lower() == 'a' then
+			if vfly then
+				CONTROL.L = - vehicleflyspeed
+			else
+				CONTROL.L = - iyflyspeed
+			end
+		elseif KEY:lower() == 'd' then 
+			if vfly then
+				CONTROL.R = vehicleflyspeed
+			else
+				CONTROL.R = iyflyspeed
+			end
+		elseif QEfly and KEY:lower() == 'e' then
+			if vfly then
+				CONTROL.Q = vehicleflyspeed*2
+			else
+				CONTROL.Q = iyflyspeed*2
+			end
+		elseif QEfly and KEY:lower() == 'q' then
+			if vfly then
+				CONTROL.E = -vehicleflyspeed*2
+			else
+				CONTROL.E = -iyflyspeed*2
+			end
+		end
+	end)
+	IYMouse.KeyUp:connect(function(KEY)
+		if KEY:lower() == 'w' then
+			CONTROL.F = 0
+		elseif KEY:lower() == 's' then
+			CONTROL.B = 0
+		elseif KEY:lower() == 'a' then
+			CONTROL.L = 0
+		elseif KEY:lower() == 'd' then
+			CONTROL.R = 0
+		elseif KEY:lower() == 'e' then
+			CONTROL.Q = 0
+		elseif KEY:lower() == 'q' then
+			CONTROL.E = 0
+		end
+	end)
+	FLY()
+end
+
+function NOFLY()
+	FLYING = false
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+end
+
+function fly()
+    NOFLY()
+    wait()
+    sFLY()
+end
+
+end)
+
+TeleportsSection:NewButton("Teleport To Finish", "Teleports Your Character To Finish", function()
+    local teleport_table = {
+        location1 = Vector3.new(39.585296630859375, 49207.44921875, 7.524146556854248), -- your desired position
+        location2 = Vector3.new(39.585296630859375, 49207.44921875, 7.524146556854248)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)
+end)
+
+
+elseif game.PlaceId == 1069951594 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Fall of Hell | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+        
+    local Main = Window:NewTab("Main")
+    
+    local MainSection = Main:NewSection("Main")
+    
+MainSection:NewButton("Finish Map", "Teleports You End", function()
+    local teleport_table = {
+        location1 = Vector3.new(66.911865234375, -9549.0029296875, 10.861429214477539), -- your desired position
+        location2 = Vector3.new(66.911865234375, -9549.0029296875, 10.861429214477539)  -- your desired position
+    }
+    
+    local tween_s = game:GetService('TweenService')
+    local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+    
+    local lp = game.Players.LocalPlayer
+    
+    function bypass_teleport(v)
+        if lp.Character and 
+        lp.Character:FindFirstChild('HumanoidRootPart') then
+            local cf = CFrame.new(v)
+            local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+            a:Play()
+            -- a.Completed:Wait()
+            -- print('Teleporting Done!')
+        end
+    end
+    
+    bypass_teleport(teleport_table.location1)
+end)
+
+elseif game.placeId == 3956818381 then
+
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Ninja Legends | https://www.youtube.com/@craxsonscripts", "GrapeTheme")
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewToggle("Auto Swing", "Your Character Swings Auto", function(v)
+        getgenv().autoswing = v
+        while true do
+            if not getgenv().autoswing then return end
+            for _,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                if v:FindFirstChild("ninjitsuGain") then
+                    game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+                    break
+                end
+            end
+            local A_1 = "swingKatana"
+            local Event = game:GetService("Players").LocalPlayer.ninjaEvent
+            Event:FireServer(A_1)
+            wait(0.1)
+        end
+    end)
+
+    MainSection:NewToggle("Auto Sell", "Autosells ninjutsus", function(v)
+        getgenv().autosell = v
+        while true do
+            if getgenv().autoswing == false then return end
+            game:GetService("Workspace").sellAreaCircles["sellAreaCircle16"].circleInner.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            wait(0.1)
+            game:GetService("Workspace").sellAreaCircles["sellAreaCircle16"].circleInner.CFrame = CFrame.new(0,0,0)
+            wait(0.1)
+        end
+    end)
+
+    MainSection:NewButton("Unlock all islands", "Unlocks all islands", function()
+        local oldcframe = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        for _,v in pairs(game:GetService("Workspace").islandUnlockParts:GetChildren()) do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+            wait(0.1)
+        end
+        wait(0.1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = oldcframe
+    end)
+    
+    MainSection:NewToggle("Auto buyswords", "Auto buys swords", function(v)
+        getgenv().buyswords = v
+        while true do
+            if not getgenv().buyswords then return end
+            local A_1 = "buyAllSwords"
+            local A_2 = "Inner Peace Island"
+            local Event = game:GetService("Players").LocalPlayer.ninjaEvent
+            Event:FireServer(A_1, A_2)
+            wait(0.5)
+        end
+    end)
+
+    MainSection:NewToggle("Auto buy belts", "auto buys belts", function(v)
+        getgenv().buybelts = v
+        while true do
+            if not getgenv().buybelts then return end
+            local A_1 = "buyAllBelts"
+            local A_2 = "Inner Peace Island"
+            local Event = game:GetService("Players").LocalPlayer.ninjaEvent
+            Event:FireServer(A_1, A_2)
+            wait(0.5)
+        end
+    end)
+
+
+elseif game.placeId == 155615604 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Prison Life | https://www.youtube.com/@craxsonscripts", "Grape Theme")
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewDropdown("Give Gun", "Gives the localplayer a gun", {"M9", "Remington 870", "AK-47"}, function(v)
+        local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver[v].ITEMPICKUP
+        local Event = game:GetService("Workspace").Remote.ItemHandler
+        Event:InvokeServer(A_1)
+    end)
+
+    MainSection:NewDropdown("Gun Mod", "Makes the gun op", {"M9", "Remington 870", "AK-47"}, function(v)
+        local module = nil
+        if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild(v) then
+            module = require(game:GetService("Players").LocalPlayer.Backpack[v].GunStates)
+        elseif game:GetService("Players").LocalPlayer.Character:FindFirstChild(v) then
+            module = require(game:GetService("Players").LocalPlayer.Character[v].GunStates)
+        end
+        if module ~= nil then
+            module["MaxAmmo"] = math.huge
+            module["CurrentAmmo"] = math.huge
+            module["StoredAmmo"] = math.huge
+            module["FireRate"] = 0.0001
+            module["Spread"] = 0
+            module["Range"] = math.huge
+            module["Bullets"] = 10
+            module["ReloadTime"] = 0.001
+            module["AutoFire"] = true
+        end
+    end)
+
+    -- PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+    end)
+
+    PlayerSection:NewSlider("Jumppower", "Changes the jumppower", 250, 50, function(v)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+    end)    
+end
